@@ -1,11 +1,29 @@
 <?xml version="1.0" ?>
 <manifest>
   <remote fetch="git@github.com:nthomas-mozilla/" name="nthomas"/>
-  <remote fetch="git@github.com:moz-releng-automation-stage/" name="staging-mozilla-partners"/>
   <remote fetch="git@github.com:mozilla-partners/" name="mozilla-partners"/>
   <remote fetch="git@github.com:mozilla/" name="mozilla"/>
 
-  <project name="repack-scripts" path="scripts" remote="mozilla-partners" revision="master"/>
+  <project name="repack-scripts" path="scripts" remote="nthomas" revision="stub-fix"/>
   <project name="build-tools" path="scripts/tools" remote="mozilla" revision="master"/>
-  <project name="sample-configs" path="partners/sample-configs" remote="nthomas" revision="master"/>
+  <project name="acer" path="partners/acer" remote="mozilla-partners" revision="master"/>
+  <project name="aol" path="partners/aol" remote="mozilla-partners" revision="master"/>
+  <project name="avantis" path="partners/avantis" remote="mozilla-partners" revision="master"/>
+  <project name="chipde" path="partners/chipde" remote="mozilla-partners" revision="master"/>
+  <project name="funnelcake" path="partners/funnelcake" remote="mozilla-partners" revision="master"/>
+  <project name="hp" path="partners/hp" remote="mozilla-partners" revision="master"/>
+  <project name="ironsource" path="partners/ironsource" remote="mozilla-partners" revision="master"/>
+  <project name="mailru" path="partners/mailru" remote="mozilla-partners" revision="master"/>
+  <project name="mozillaonline" path="partners/mozillaonline" remote="mozilla-partners" revision="master"/>
+  <project name="ntt" path="partners/ntt" remote="mozilla-partners" revision="master"/>
+  <project name="playanext" path="partners/playanext" remote="mozilla-partners" revision="master"/>
+  <project name="qualcomm" path="partners/qualcomm" remote="mozilla-partners" revision="master"/>
+  <project name="qwant" path="partners/qwant" remote="mozilla-partners" revision="master"/>
+  <project name="seznam" path="partners/seznam" remote="mozilla-partners" revision="master"/>
+  <project name="softonic" path="partners/softonic" remote="mozilla-partners" revision="master"/>
+  <project name="sweetlabs" path="partners/sweetlabs" remote="mozilla-partners" revision="master"/>
+  <project name="toshiba" path="partners/toshiba" remote="mozilla-partners" revision="master"/>
+  <project name="unitedinternet" path="partners/unitedinternet" remote="mozilla-partners" revision="master"/>
+  <project name="wildtangent" path="partners/wildtangent" remote="mozilla-partners" revision="master"/>
+  <project name="yandex" path="partners/yandex" remote="mozilla-partners" revision="master"/>
 </manifest>
