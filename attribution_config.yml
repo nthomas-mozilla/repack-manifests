@@ -18,6 +18,7 @@ configs:
     - de
     - en-CA
     - he
+    - zh-TW
     platforms:
     - win64
     - win32
