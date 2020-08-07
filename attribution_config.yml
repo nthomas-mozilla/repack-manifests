@@ -15,9 +15,9 @@ configs:
 -   campaign: test
     content: test-002
     locales:
+    - de
     - en-CA
-    - fr
-    - zh-TW
+    - he
     platforms:
     - win64
     - win32
