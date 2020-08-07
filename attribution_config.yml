@@ -9,8 +9,8 @@ configs:
     - de
     - ru
     platforms:
-    - win64
-    - win32
+    - win64-shippable
+    - win32-shippable
     upload_to_candidates: true
 -   campaign: test
     content: test-002
@@ -20,6 +20,6 @@ configs:
     - he
     - zh-TW
     platforms:
-    - win64
-    - win32
+    - win64-shippable
+    - win32-shippable
     upload_to_candidates: true
