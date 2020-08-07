@@ -1,0 +1,30 @@
+default:
+    medium: distribution
+    source: mozilla
+config:
+    sample:
+        sample-001:
+            campaign: sample
+            content: sample-001
+            platforms:
+                - win64
+                - win32
+            locales:
+                - en-US
+                - de
+                - ru
+            upload_to_candidates: true
+    test:
+        test-002:
+            campaign: test
+            content: test-002
+            platforms:
+                - win64
+                - win32
+            locales:
+                - en-US
+                - de
+                - ru
+            upload_to_candidates: true
+
+        
