@@ -12,6 +12,8 @@ configs:
     - win64-shippable
     - win32-shippable
     upload_to_candidates: true
+# second config with private artifacts, and partial locale overlap with sample-001 (de) plus extras (en-CA, he),
+# and extra locale not present in staging releases (zh-TW)
 -   campaign: test
     content: test-002
     locales:
@@ -22,4 +24,3 @@ configs:
     platforms:
     - win64-shippable
     - win32-shippable
-    upload_to_candidates: true
